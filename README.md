@@ -24,8 +24,8 @@ To get the project running locally, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/map-locations-project.git
-cd map-locations-project
+git remote add origin https://github.com/arachne16/google-map-test.git
+cd google-map-test
 ```
 
 2. Install the required dependencies:
@@ -43,8 +43,6 @@ REACT_APP_GOOGLE_MAPS_API_KEY=YOUR_GOOGLE_MAP_API_KEY
 ```
 
 Replace `YOUR_GOOGLE_MAP_API_KEY` with the actual API key provided by Google Cloud.
-
-**Important**: Never commit your `.env` file or any sensitive keys to version control.
 
 ### Running the Application
 
@@ -64,19 +62,4 @@ The application will open in your default web browser at `http://localhost:3000`
 - Click on a location in the list to revisit it on the map.
 - Use the import/export buttons to upload or download the list of locations.
 
-## Contributing
-
-Contributions to improve the project are welcome. Please follow the standard fork and pull request workflow.
-
-## License
-
-Specify your license here, or state that the project is unlicensed.
-
-```
-
-Ensure to replace `https://github.com/your-username/map-locations-project.git` with the actual URL of your repository.
-
-**Note on the API Key**: As you correctly pointed out, API keys should never be shared publicly. The `.env` file should be listed in your `.gitignore` to prevent accidental commits of sensitive information. Always remind users to obtain their own API keys from the service provider—in this case, Google Cloud.
-
-This README template is a starting point. You may want to add additional sections such as "Project Structure", "Technologies Used", "Contributing Guidelines", or "Contact Information" depending on the needs of your project.
-```
+['http://localhost:3000']('http://localhost:3000')
