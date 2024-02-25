@@ -62,4 +62,6 @@ The application will open in your default web browser at `http://localhost:3000`
 - Click on a location in the list to revisit it on the map.
 - Use the import/export buttons to upload or download the list of locations.
 
-[http://localhost:3000]('http://localhost:3000')
+[http://localhost:3000](http://localhost:3000)
+
+Here's the live server: [Google Map version 2](https://google-map-test-neon.vercel.app/)
